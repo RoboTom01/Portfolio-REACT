@@ -1,5 +1,5 @@
 import React from 'react';
-import AppCSS from './App.css';
+// import AppCSS from './App.css';
 import Navbar from'./components/Navbar';
 import BackgroundPic from './components/BackgroundPic';
 import About from './components/About';
