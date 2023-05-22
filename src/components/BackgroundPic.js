@@ -2,8 +2,9 @@ import React from 'react';
 
 function BackgroundPic() {
     return (
-        // Background Pic
-        <section></section>
+        <div>
+            {/* Background Pic */}
+        </div>
     );
 }
 
