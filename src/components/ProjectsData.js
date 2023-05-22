@@ -1,4 +1,4 @@
-const projectsData = [
+export const projectsData = [
     {
       title: "Hogar Bazaar",
       subtitle: "Hogar Bazaar",
@@ -33,4 +33,4 @@ const projectsData = [
     },
   ];
 
-  export default projectsData;
+  // export default projectsData;
