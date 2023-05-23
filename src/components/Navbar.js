@@ -1,4 +1,8 @@
 import React from 'react';
+import { Routes, Route, Link } from "react-router-dom";
+import ProjectPage from '../pages/ProjectsPage';
+import HomePage from '../pages/Homepage';
+import ContactPage from '../pages/ContactPage';
 
 function Navbar() {
     return (
@@ -8,20 +12,28 @@ function Navbar() {
       <ul id="navbar">
         <li class="nav_topic">
           <button class="nav_button">
-            <a href="/Portfolio-REACT/">About Me</a>
+            <Link to="/">About Me</Link>
+            {/* <a href="/Portfolio-REACT/">About Me</a> */}
           </button>
         </li>
         <li class="nav_topic">
           <button class="nav_button">
-            <a href="/Portfolio-REACT/ProjectsPage">Projects</a>
+            <Link to="/ProjectsPage">Projects</Link>
+            {/* <a href="/Portfolio-REACT/ProjectsPage">Projects</a> */}
           </button>
         </li>
         <li class="nav_topic">
           <button class="nav_button">
-            <a href="/Portfolio-REACT/ContactPage">Contact Me</a>
+            <Link to="/ContactPage">Contact Me</Link>
+            {/* <a href="/Portfolio-REACT/ContactPage">Contact Me</a> */}
           </button>
         </li>
       </ul>
+      <Routes>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/ProjectsPage" component={ProjectPage} />
+        <Route path="/ContactPage" component={ContactPage} />
+      </Routes>
   </header>
     );
 }
