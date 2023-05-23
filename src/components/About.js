@@ -1,10 +1,8 @@
 import React from 'react';
 import Footer from './Footer';
 
-
 function About() {
     return (
-        // About Me
         <div>
           <div id="about_me">
             <h3>BIO:</h3>
