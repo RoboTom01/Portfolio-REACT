@@ -36,7 +36,7 @@ function About() {
             </div>
           </div>
           <Footer />
-          <img id="profile_pic" src="./assets/images/profilepic.jpg" alt="me"></img>
+          <img id="profile_pic" src="https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/345467480_628723342475459_2166943159120047071_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=DcWYWMwgLMMAX9JFJIa&_nc_ht=scontent.fslc3-1.fna&oh=00_AfDXSJZGGlnQ-pjwJcrCCY87-i6auROn8vOlCFhxFelQ_g&oe=64718DE8" alt="me"></img>
         </div>
     );
 }
