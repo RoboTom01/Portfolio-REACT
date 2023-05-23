@@ -7,10 +7,10 @@ import Footer from '../components/Footer';
 function HomePage () {
     return (
         <div id='home-page'>
-            <Navbar />
-            <BackgroundPic />
+            {/* <Navbar /> */}
+            {/* <BackgroundPic /> */}
             <About />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

@@ -1,6 +1,8 @@
 
 // import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from 'react';
+import { NavLink } from "react-router-dom";
+
 
 function Navbar() {
     return (
@@ -10,20 +12,29 @@ function Navbar() {
       <ul id="navbar">
         <li class="nav_topic">
           <button class="nav_button">
-          <a href="#about_me">About Me</a>
+          <a href="/">About Me</a>
           </button>
         </li>
         <li class="nav_topic">
           <button class="nav_button">
-          <a href="#project_big">Projects</a>
+          <a href="/ProjectsPage">Projects</a>
           </button>
         </li>
         <li class="nav_topic">
           <button class="nav_button">
-          <a href="#contact_me">Contact Me</a>
+          <a href="/ContactPage">Contact Me</a>
           </button>
         </li>
-        
+        {/* <li>
+          <a href="/pages/Homepage">About Me</a>
+        </li>
+        <li>
+          <a href="/pages/ProjectsPage">Projects</a>
+        </li>
+        <li>
+          <a href="/pages/ContactPage">Contact Me</a>
+        </li> */}
+
       </ul>
   </header>
     );

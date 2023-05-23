@@ -7,10 +7,10 @@ import Footer from '../components/Footer';
 function ProjectPage () {
     return (
         <div id="project-page">
-            <Navbar />
-            <BackgroundPic />
+            {/* <Navbar /> */}
+            {/* <BackgroundPic /> */}
             <Projects />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

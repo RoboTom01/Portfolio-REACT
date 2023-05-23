@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import AppCSS from './App.css';
 import Navbar from'../src/components/Navbar';
 import BackgroundPic from '../src/components/BackgroundPic';
@@ -9,15 +10,38 @@ import Projects from '../src/components/Projects';
 // import Contact from '../src/components/Contact';
 // import Columns from './components/columns';
 import Footer from './components/Footer';
+import HomePage from './pages/Homepage';
+import ContactPage from './pages/ContactPage';
+import ProjectPage from './pages/ProjectsPage';
 // import './components/ProjectsData';
 
 function App() {
+  let component
+  switch (window.location.pathname) {
+    case "/":
+      component = <HomePage />
+      break
+    case "/ProjectsPage":
+      component = <ProjectPage />
+      break
+    case "/ContactPage":
+      component = <ContactPage />
+      break
+  }
   return (
       <main> 
-        <Navbar />
+        {/* <Router> */}
+          <Navbar />
+            {/* <Routes>
+              <Route path='/' exact component={HomePage} />
+              <Route path='/ProjectPage' component={ProjectPage} /> 
+              <Route path='/ContactPage' component={ContactPage} />
+            </Routes> */}
+        {/* </Router> */}
         <BackgroundPic />
-        <About />
-        <Projects />
+        {component}
+        {/* <About /> */}
+        {/* <Projects /> */}
         <Footer />
       </main>
   );
