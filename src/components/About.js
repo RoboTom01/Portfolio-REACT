@@ -17,12 +17,14 @@ function About() {
               <p>My Certifications:</p>
               <ul id='certification' class='row'>
                 <ul class='list-left'>
+                  <li>Full Stack Web Development (WIP)</li>
                   <li>Associate's Degree in Accounting</li>
                   <li>Quickbooks Desktop Certified</li>
                   <li>Microsoft Office Specialist Excel 2016</li>
                   <li>Desktop Pro Certifaction (IT)</li>
                 </ul>
                 <ul class='list-right'>
+                  <li> • University of Utah</li>
                   <li> • Ensign College</li>
                   <li> • Intuit</li>
                   <li> • Microsoft</li>

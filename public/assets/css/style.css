@@ -23,6 +23,18 @@ body {
     position: relative;
 }
 
+button {
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    background-color: #ECA869;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #c99769;
+}
+
 footer {
     background-color: var(--main-color);
     width: 100%;
@@ -30,6 +42,10 @@ footer {
     bottom: 0px;
     /* padding: 50px 0px 50px; */
     /* min-width: var(--minimum-size); */
+}
+
+form {
+    padding-bottom: 20px;
 }
 
 header {
@@ -55,15 +71,25 @@ h1 {
 }
 
 h2 {
-    padding-left: 15px;
-    padding-right: 17px;
-    text-align: right;
+    padding: 20px 0 20px 0;
+    margin: 0;
+    /* text-align: right; */
 }
 
 h3 {
     padding-left: 17px;
     padding-top: 17px;
 }
+
+input {
+    width: 20%;
+    min-width: 300px;
+    margin: 5px 0 5px 0;
+}
+
+/* label {
+    padding-top: 10px;
+} */
 
 p {
     text-align: center;
@@ -72,6 +98,13 @@ p {
     padding-right: 55px; 
     width: auto;
     word-wrap: break-word;
+}
+
+textarea{
+    width: 30%;
+    min-width: 300px;
+    height: 300px;
+    margin: 5px 0 5px 0;
 }
 
 ul {
@@ -130,18 +163,6 @@ ul {
     flex: 50%;
     text-align: left;
     padding-left: 5px;
-}
-
-.nav_button {
-    font-weight: bold;
-    height: 30px;
-    width: 100px;
-    background-color: #ECA869;
-    border-radius: 12px;
-}
-
-.nav_button:hover {
-    background-color: #c99769;
 }
 
 .nav_topic {
@@ -226,6 +247,14 @@ ul {
     margin-bottom: 0%;
 }
 
+#email-form {
+    justify-content: center;
+    text-align: center;
+    padding: 15px auto 15px auto;
+    background-color: var(--secondary-color);
+
+}
+
 #logo {
     width: 21px;
     padding-left: 1px;
@@ -268,7 +297,8 @@ ul {
     flex-wrap: wrap;
     min-width: 300px;
     margin-top: 0;
-    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: auto;
     padding-right: auto;
     justify-content: center;
