@@ -23,14 +23,14 @@ function App() {
       default:
   }
   return (
-    <HashRouter basename='/'>
+    // <HashRouter basename='/'>
       <main> 
         <Navbar />
         <BackgroundPic />
         {component}
         {/* <Footer /> */}
       </main>
-      </HashRouter>
+      // {/* </HashRouter> */}
   );
 }
 
