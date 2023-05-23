@@ -11,13 +11,13 @@ import ProjectPage from './pages/ProjectsPage';
 function App() {
   let component
   switch (window.location.pathname) {
-    case "/Portfolio-REACT/":
+    case "/":
       component = <HomePage />
       break;
-    case "/Portfolio-REACT/ProjectsPage":
+    case "/ProjectsPage":
       component = <ProjectPage />
       break;
-    case "/Portfolio-REACT/ContactPage":
+    case "/ContactPage":
       component = <ContactPage />
       break;
       default:
