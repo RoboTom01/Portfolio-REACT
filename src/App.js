@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import AppCSS from './App.css';
 import Navbar from'../src/components/Navbar';
 import BackgroundPic from '../src/components/BackgroundPic';
-import About from '../src/components/About';
-import Projects from '../src/components/Projects';
+// import About from '../src/components/About';
+// import Projects from '../src/components/Projects';
 // import Contact from '../src/components/Contact';
 // import Columns from './components/columns';
 import Footer from './components/Footer';
@@ -30,18 +30,9 @@ function App() {
   }
   return (
       <main> 
-        {/* <Router> */}
-          <Navbar />
-            {/* <Routes>
-              <Route path='/' exact component={HomePage} />
-              <Route path='/ProjectPage' component={ProjectPage} /> 
-              <Route path='/ContactPage' component={ContactPage} />
-            </Routes> */}
-        {/* </Router> */}
+        <Navbar />
         <BackgroundPic />
         {component}
-        {/* <About /> */}
-        {/* <Projects /> */}
         <Footer />
       </main>
   );

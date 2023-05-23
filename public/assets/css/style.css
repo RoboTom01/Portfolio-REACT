@@ -1,5 +1,6 @@
 :root {
     --main-color: #B5D5C5;
+    --secondary-color: #F5F5DC;
     --borader-round: 10%;
     --minimum-size: 1095px;
 
@@ -18,13 +19,15 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0%;
     min-width: var(--minimum-size);
-    background-color: #F5F5DC;
+    background-color: var(--main-color);
+    position: relative;
 }
 
 footer {
     background-color: var(--main-color);
     width: 100%;
-    
+    /* position: fixed;
+    bottom: 0px;
     /* padding: 50px 0px 50px; */
     /* min-width: var(--minimum-size); */
 }
@@ -67,6 +70,8 @@ p {
     overflow-wrap: break-word;
     font-size: 17px;
     padding-right: 55px; 
+    width: auto;
+    word-wrap: break-word;
 }
 
 ul {
@@ -105,7 +110,6 @@ ul {
     font-size: 17px;
     color: blue;
     padding-left: 10%;
-    
 }
 
 .link {
@@ -115,6 +119,17 @@ ul {
     top: 0;
     left: 0;
     z-index: 1;
+}
+
+.list-left {
+    flex: 50%;
+    text-align: right;
+}
+
+.list-right {
+    flex: 50%;
+    text-align: left;
+    padding-left: 5px;
 }
 
 .nav_button {
@@ -176,6 +191,8 @@ ul {
 #about_me {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--secondary-color);
 }
 
 #bio {
@@ -190,6 +207,17 @@ ul {
     height: 500px;
     background-image: url("https://images.pexels.com/photos/388415/pexels-photo-388415.jpeg?cs=srgb&dl=pexels-jahoo-clouseau-388415.jpg&fm=jpg");
     background-position: 0px -1000px;
+}
+
+/* #div-footer {
+    background-color: var(--main-color);
+    height: fit-content;
+    width: auto;
+} */
+
+#certification {
+    padding: 0;
+    justify-content: left;
 }
 
 #contact_me {
@@ -232,19 +260,23 @@ ul {
 }
 
 #projects {
+    background-color: var(--secondary-color);
     display: flex;
     flex-wrap: wrap;
     min-width: 300px;
+    margin-top: 0;
     padding: 0;
-      
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
 }
 
-#project_big {
+/* #project_big {
     border-style: solid;
     height: 330px;
     width: auto;
     min-width: 658px;
-    /* max-width: 1500px; */
+    max-width: 1500px;
     margin: 15px 50px 15px 0px;
     background-image: url("https://thumbs.dreamstime.com/b/grand-bazaar-istanbul-turkey-22466729.jpg"); 
     background-size: cover;
@@ -252,7 +284,7 @@ ul {
     background-color: transparent;
     cursor: pointer;
     position: relative;
-}
+} */
 
 
 /* Background images for small projects */
