@@ -81,6 +81,11 @@ h3 {
     padding-top: 17px;
 }
 
+img {
+    width: 400px;
+    height: auto;
+}
+
 input {
     width: 20%;
     min-width: 300px;
