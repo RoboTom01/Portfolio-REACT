@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import { HashRouter } from "react-router-dom";
 import Navbar from'../src/components/Navbar';
 import BackgroundPic from '../src/components/BackgroundPic';
 import HomePage from './pages/Homepage';
@@ -22,12 +23,14 @@ function App() {
       default:
   }
   return (
+    <HashRouter basename='/'>
       <main> 
         <Navbar />
         <BackgroundPic />
         {component}
         {/* <Footer /> */}
       </main>
+      </HashRouter>
   );
 }
 
