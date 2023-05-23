@@ -12,7 +12,7 @@ function About() {
               <p class="italic">Hi, I'm Thomas.</p>
               <p>•</p>
               <p>I was born and raised in Utah and am jumping into the world of web development.</p>
-              <p>I enjoy golf, skiing, gaming, and spending time with my dog.</p>
+              <p>I enjoy golf, skiing, gaming, and going places with my dog.</p>
               <p>•</p>
               <p>My Certifications:</p>
               <ul id='certification' class='row'>
