@@ -21,7 +21,7 @@ function About() {
                   <li>Associate's Degree in Accounting</li>
                   <li>Quickbooks Desktop Certified</li>
                   <li>Microsoft Office Specialist Excel 2016</li>
-                  <li>Desktop Pro Certifaction (IT)</li>
+                  <li>Desktop Pro Certification (IT)</li>
                 </ul>
                 <ul class='list-right'>
                   <li> • University of Utah</li>
