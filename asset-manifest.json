@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//robotom01.github.io/Portfolio-REACT/static/css/main.542e3427.css",
+    "main.js": "//robotom01.github.io/Portfolio-REACT/static/js/main.8f687b1a.js",
+    "static/js/787.28cb0dcd.chunk.js": "//robotom01.github.io/Portfolio-REACT/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "//robotom01.github.io/Portfolio-REACT/index.html",
+    "main.542e3427.css.map": "//robotom01.github.io/Portfolio-REACT/static/css/main.542e3427.css.map",
+    "main.8f687b1a.js.map": "//robotom01.github.io/Portfolio-REACT/static/js/main.8f687b1a.js.map",
+    "787.28cb0dcd.chunk.js.map": "//robotom01.github.io/Portfolio-REACT/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.542e3427.css",
+    "static/js/main.8f687b1a.js"
+  ]
+}
