@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "homepage": "https://robotom01.github.io/Portfolio-REACT",
   "private": true,
+  "engines": {
+    "node": "16.16.0",
+    "npm": "8.11.0"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.5",
