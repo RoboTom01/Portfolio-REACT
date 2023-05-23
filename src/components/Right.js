@@ -6,7 +6,7 @@ function Right() {
 
       <div class="column_right">
         <div>
-          <img id="profile_pic" src="../portfolio/assets/images/profilepic.jpg" alt="me"></img>
+          <img id="profile_pic" src="./Portfolio-REACT/public/assets/images/profilepic.jpg" alt="me"></img>
           </div>
       </div>
     );

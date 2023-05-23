@@ -218,6 +218,7 @@ ul {
 #profile_pic {
     height: 300px;
     width: auto;
+    /* background-image: ""; */
     border-radius: var(--borader-round);
     border-style: groove;
     border-color: black;
