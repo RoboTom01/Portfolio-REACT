@@ -1,5 +1,5 @@
 import React from 'react';
-// import { projectsData } from './ProjectsData';
+import Footer from './Footer';
 
 
 function Projects() {
@@ -25,6 +25,7 @@ function Projects() {
               <a class="project_text link" href="https://github.com/RoboTom01/Team-Profile-Generator">Team Profile Generator</a>
           </li> 
         </ul>
+        <Footer />
       </div>
     );
   }

@@ -1,8 +1,14 @@
 import React from 'react';
+import Footer from './Footer';
 
 function Contact() {
     return (
-      <div>TODO, make email form</div>
+      <div>
+        <form>
+
+        </form>
+        <Footer />
+      </div>
     );
 }
 
