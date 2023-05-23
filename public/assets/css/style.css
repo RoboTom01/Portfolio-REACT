@@ -200,7 +200,7 @@ ul {
     text-align: center;
     overflow-wrap: break-word;
     font-size: 17px;
-    padding-right: 55px;
+    /* padding-right: 55px; */
 }
  
 #background_field {
