@@ -17,12 +17,12 @@ function Navbar() {
         </li>
         <li class="nav_topic">
           <button class="nav_button">
-            <a href="/Portfolio-REACT/ProjectsPage">Projects</a>
+            <a href="/ProjectsPage">Projects</a>
           </button>
         </li>
         <li class="nav_topic">
           <button class="nav_button">
-            <a href="/Portfolio-REACT/ContactPage">Contact Me</a>
+            <a href="/ContactPage">Contact Me</a>
           </button>
         </li>
       </ul>

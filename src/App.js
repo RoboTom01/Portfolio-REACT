@@ -21,10 +21,10 @@ function App() {
     case "/Portfolio-REACT/":
       component = <HomePage />
       break
-    case "/Portfolio-REACT/ProjectsPage":
+    case "/ProjectsPage":
       component = <ProjectPage />
       break
-    case "/Portfolio-REACT/ContactPage":
+    case "/ContactPage":
       component = <ContactPage />
       break
   }
