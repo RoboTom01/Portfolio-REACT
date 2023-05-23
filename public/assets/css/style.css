@@ -103,13 +103,13 @@ ul {
 }
 
 .contact_list_item {
-    padding-top: 10px;
+    font-size: 17px;
+    padding-top: 10px; 
+    padding-left: 10%;
 }
 
 .href_special {
-    font-size: 17px;
     color: blue;
-    padding-left: 10%;
 }
 
 .link {
@@ -226,6 +226,12 @@ ul {
     margin-bottom: 0%;
 }
 
+#logo {
+    width: 21px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
 #main_image {
     width: 100%;
 }
@@ -246,17 +252,12 @@ ul {
 #profile_pic {
     height: 300px;
     width: auto;
-    /* background-image: ""; */
     border-radius: var(--borader-round);
     border-style: groove;
     border-color: black;
-    position: relative;
-    /* right: 50px; */
+    /* position: relative;
     right: 10%;
-    bottom: 130px;
-    /* display: flex; 
-    justify-content: flex-end; */
-    
+    bottom: 130px;     */
 }
 
 #projects {
@@ -289,34 +290,40 @@ ul {
 
 /* Background images for small projects */
 
+#Match {
+    background-image: url("https://media.istockphoto.com/id/1022344586/photo/rugby-players-cheering-and-celebrating-win.jpg?s=612x612&w=0&k=20&c=8pvctVwczfspxPUMlA_udbOlDiMwUI2kRwBDgZJ9-Sc=");
+    background-size: cover;
+    background-position: 0px -110px; 
+}
+
 #Hogar {
     background-image: url("https://thumbs.dreamstime.com/b/grand-bazaar-istanbul-turkey-22466729.jpg");
     background-size: cover;
-    background-position: 0px 0px; 
+    background-position: 0px -80px; 
 }
 
 #Rec {
-    background-image: url(https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url("https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: 0px -80px;
 }
 
-#Cal {
-    background-image: url(https://media.istockphoto.com/id/941729686/photo/business-accounting-concept-business-man-using-calculator-with-computer-laptop-budget-and-loan.jpg?b=1&s=612x612&w=0&k=20&c=VetWm4XkuQz2NOMVy9mNNrIenXzhkFidfcxIWRoEFEk=);
+#Weather {
+    background-image: url("https://media.istockphoto.com/id/533346005/photo/weather-forecast-concept.jpg?s=612x612&w=0&k=20&c=yplw1kbLIdcG-xG6BblsDduQn23AEtl3-_Iw-kr5mWQ=");
     background-size: cover;
-    background-position: 0px -170px;
+    background-position: 0px -90px; 
 }
 
-#Past {
-    background-image: url(https://t3.ftcdn.net/jpg/00/49/69/66/360_F_49696671_C4x2IxqNOetcjF3o1a6zyaLG8sqGtcTw.jpg);
+#Password {
+    background-image: url("https://st.depositphotos.com/1034895/2190/i/600/depositphotos_21906991-stock-photo-password.jpg");
     background-size: cover;
-    background-position: 0px -80px;
+    background-position: 0px -140px; 
 }
 
-#Run {
-    background-image: url(https://media.istockphoto.com/id/466443000/photo/female-running.jpg?s=612x612&w=0&k=20&c=TQ-l1bZmuoUIjxNWZ7ez4ODwlRXlyIPKaC9Cain8Nhk=);
+#Team {
+    background-image: url("https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg");
     background-size: cover;
-    background-position: 0px -160px;
+    background-position: 0px -130px; 
 }
 
 
