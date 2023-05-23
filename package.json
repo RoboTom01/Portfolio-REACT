@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://robotom01.github.io/Portfolio-REACT",
+  "homepage": "https://robotom01.github.io/Portfolio-REACT/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
