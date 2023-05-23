@@ -12,13 +12,14 @@ function App() {
   switch (window.location.pathname) {
     case "/Portfolio-REACT/":
       component = <HomePage />
-      break
+      break;
     case "/Portfolio-REACT/ProjectsPage":
       component = <ProjectPage />
-      break
+      break;
     case "/Portfolio-REACT/ContactPage":
       component = <ContactPage />
-      break
+      break;
+      default:
   }
   return (
       <main> 
