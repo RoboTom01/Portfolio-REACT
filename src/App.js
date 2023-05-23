@@ -33,7 +33,7 @@ function App() {
         <Navbar />
         <BackgroundPic />
         {component}
-        <Footer />
+        {/* <Footer /> */}
       </main>
   );
 }

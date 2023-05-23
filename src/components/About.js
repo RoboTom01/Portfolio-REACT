@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 
 function About() {
@@ -7,9 +8,6 @@ function About() {
         <div>
           <div id="about_me">
             <h3>BIO:</h3>
-            {/* <div>
-              <img id="profile_pic" src="./assets/images/profilepic.jpg" alt="me"></img>
-            </div> */}
             <div id="bio">
               <p class="italic">Hi, I'm Thomas.</p>
               <p>•</p>
@@ -37,6 +35,8 @@ function About() {
               <p>•</p>
             </div>
           </div>
+          <Footer />
+          <img id="profile_pic" src="./assets/images/profilepic.jpg" alt="me"></img>
         </div>
     );
 }

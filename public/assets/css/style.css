@@ -109,7 +109,7 @@ ul {
 }
 
 .href_special {
-    color: blue;
+    color: rgb(17, 168, 255);
 }
 
 .link {
@@ -250,14 +250,16 @@ ul {
 }
 
 #profile_pic {
-    height: 300px;
-    width: auto;
+    height: auto;
+    width: 300px;
     border-radius: var(--borader-round);
     border-style: groove;
     border-color: black;
-    /* position: relative;
-    right: 10%;
-    bottom: 130px;     */
+    position: relative;
+    /* right: 10%; */
+    left: 65%;
+    bottom: 1000px;    
+    background-color: var(--secondary-color);
 }
 
 #projects {

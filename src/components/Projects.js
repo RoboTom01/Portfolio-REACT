@@ -7,7 +7,7 @@ function Projects() {
       <div>
         <ul id="projects">
         <li id="Match" class="project_small">
-              <a class="project_text link" href="https://github.com/JSheen98/match-point">Match Point</a>
+              <a class="project_text link" href="https://github.com/JSheen98/match-point">Match Point (WIP)</a>
           </li>
           <li id="Hogar" class="project_small">
               <a class="project_text link" href="https://hogar-bazaar.herokuapp.com/category/7">Hogar Bazaar</a>
