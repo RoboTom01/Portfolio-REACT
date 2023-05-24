@@ -28,7 +28,6 @@ function App() {
         <Navbar />
         <BackgroundPic />
         {component}
-        {/* <Footer /> */}
       </main>
       // {/* </HashRouter> */}
   );
