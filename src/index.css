@@ -327,6 +327,7 @@ ul {
 
 #resume_text {
   font-size: 23px;
+  cursor: pointer;
 }
 
 /* Background images for small projects */

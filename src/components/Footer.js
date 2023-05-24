@@ -4,14 +4,14 @@ function Footer () {
 
     const onButtonClick = () => {
         // using Java Script method to get PDF file
-        fetch('Thomas_Waite_resume.pdf').then(response => {
+        fetch('Thomas_Waite_Resume.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Thomas_Waite_resume.pdf';
+                alink.download = 'Thomas_Waite_Resume.pdf';
                 alink.click();
             })
         })
