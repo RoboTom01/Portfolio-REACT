@@ -7,7 +7,6 @@ import HomePage from './pages/Homepage';
 import ContactPage from './pages/ContactPage';
 import ProjectPage from './pages/ProjectsPage';
 
-
 function App() {
   let component
   switch (window.location.pathname) {
