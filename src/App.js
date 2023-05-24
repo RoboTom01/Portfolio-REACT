@@ -1,25 +1,36 @@
+import './App.css';
 import React from 'react';
-// import AppCSS from './App.css';
-import Navbar from'../my-app/src/components/Navbar';
-import BackgroundPic from '../my-app/src/components/BackgroundPic';
-import About from '../my-app/src/components/About';
-import Projects from '../my-app/src/components/Projects';
-import Contact from '../my-app/src/components/Contact';
-// import './components/ProjectsData';
-
+import { HashRouter } from "react-router-dom";
+import Navbar from'../src/components/Navbar';
+import BackgroundPic from '../src/components/BackgroundPic';
+import HomePage from './pages/Homepage';
+import ContactPage from './pages/ContactPage';
+import ProjectPage from './pages/ProjectsPage';
 
 function App() {
-    return (
-        <main>
-            <Navbar />
-            <BackgroundPic />
-            <About />
-            <Projects />
-            <Contact />
-        </main>
-    );
+  let component
+  switch (window.location.pathname) {
+    case "/":
+      component = <HomePage />
+      break;
+    case "/ProjectsPage":
+      component = <ProjectPage />
+      break;
+    case "/ContactPage":
+      component = <ContactPage />
+      break;
+      default:
   }
-  
-
+  return (
+    // <HashRouter basename='/'>
+      <main> 
+        <Navbar />
+        <BackgroundPic />
+        {component}
+        {/* <Footer /> */}
+      </main>
+      // {/* </HashRouter> */}
+  );
+}
 
 export default App;
