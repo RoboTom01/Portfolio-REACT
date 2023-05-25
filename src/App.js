@@ -22,14 +22,15 @@ function App() {
       default:
   }
   return (
-    <HashRouter basename='/'>
+
       <main> 
         <Navbar />
         <BackgroundPic />
         {component}
       </main>
-    </HashRouter>
+
   );
 }
 
 export default App;
+//    {/* // <HashRouter basename='/'> */}    {/* // </HashRouter> */}
