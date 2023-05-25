@@ -12,12 +12,12 @@ function Navbar() {
           </Link>
         </li>
         <li className="nav_topic">
-          <Link to="/ProjectsPage">
+          <Link to="/Portfolio-REACT/ProjectsPage">
             <button className="nav_button">Projects</button>
           </Link>
         </li>
         <li className="nav_topic">
-          <Link to="/ContactPage">
+          <Link to="/Portfolio-REACT/ContactPage">
             <button className="nav_button">Contact Me</button>
           </Link>
         </li>

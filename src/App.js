@@ -16,18 +16,18 @@ function App() {
           <Navbar />
           <BackgroundPic />
           <Routes>
-          <Route 
-            path="/Portfolio-REACT/" 
-            element={<HomePage />} 
-          />
-          <Route 
-            path="/ProjectsPage" 
-            element={<ProjectPage />} 
-          />
-          <Route 
-            path="/ContactPage" 
-            element={<ContactPage />} 
-          />
+            <Route 
+              path="/Portfolio-REACT/" 
+              element={<HomePage />} 
+            />
+            <Route 
+              path="/Portfolio-REACT/ProjectsPage" 
+              element={<ProjectPage />} 
+            />
+            <Route 
+              path="/Portfolio-REACT/ContactPage" 
+              element={<ContactPage />} 
+            />
           </Routes>
         </Router>
       </main>
