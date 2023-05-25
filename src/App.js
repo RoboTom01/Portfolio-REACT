@@ -8,19 +8,6 @@ import ContactPage from './pages/ContactPage';
 import ProjectPage from './pages/ProjectsPage';
 
 function App() {
-  // let component
-  // switch (window.location.pathname) {
-  //   case "/Portfolio-REACT/":
-  //     component = <HomePage />
-  //     break;
-  //   case "/Portfolio-REACT/ProjectsPage":
-  //     component = <ProjectPage />
-  //     break;
-  //   case "/Portfolio-REACT/ContactPage":
-  //     component = <ContactPage />
-  //     break;
-  //     default:
-  // }
   return (
 
       <main> 
@@ -28,9 +15,6 @@ function App() {
           <Router>
           <Navbar />
           <BackgroundPic />
-          {/* <div>
-            {component}
-          </div> */}
           <Routes>
           <Route 
             path="/Portfolio-REACT/" 
@@ -52,4 +36,3 @@ function App() {
 }
 
 export default App;
-//    {/* // <HashRouter basename='/'> */}    {/* // </HashRouter> */}
