@@ -33,7 +33,7 @@ function App() {
           </div> */}
           <Routes>
           <Route 
-            path="/" 
+            path="/Portfolio-REACT/" 
             element={<HomePage />} 
           />
           <Route 

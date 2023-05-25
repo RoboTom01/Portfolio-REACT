@@ -13,7 +13,7 @@ function Navbar() {
       {/* <!--navbar--> */}
       <ul id="navbar">
         <li className="nav_topic">
-          <Link to="/">
+          <Link to="/Portfolio-REACT/">
             {/* <Link to="/">About Me</Link> */}
             <button className="nav_button">About Me</button>
           </Link>
