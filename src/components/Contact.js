@@ -38,14 +38,10 @@ function Contact() {
         <textarea id="message" name='message' required />
       </div>
       <button type="submit" value="Send">Send</button>
-      {/* <input type="submit" value="Send" /> */}
     </form>
     <Footer />
     </div>
     );
-
-
-
 }
 
 export default Contact;
