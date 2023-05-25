@@ -7,21 +7,21 @@ function About() {
           <div id="about_me">
             <h3>BIO:</h3>
             <div id="bio">
-              <p class="italic">Hi, I'm Thomas.</p>
+              <p className="italic">Hi, I'm Thomas.</p>
               <p>•</p>
               <p>I was born and raised in Utah and am jumping into the world of web development.</p>
               <p>I enjoy golf, skiing, gaming, and going places with my dog.</p>
               <p>•</p>
               <p>My Certifications:</p>
-              <ul id='certification' class='row'>
-                <ul class='list-left'>
+              <ul id='certification' className='row'>
+                <ul className='list-left'>
                   <li>Full Stack Web Development (WIP)</li>
                   <li>Associate's Degree in Accounting</li>
                   <li>Quickbooks Desktop Certified</li>
                   <li>Microsoft Office Specialist Excel 2016</li>
                   <li>Desktop Pro Certification (IT)</li>
                 </ul>
-                <ul class='list-right'>
+                <ul className='list-right'>
                   <li> • University of Utah</li>
                   <li> • Ensign College</li>
                   <li> • Intuit</li>

@@ -12,23 +12,23 @@ function Navbar() {
         
       {/* <!--navbar--> */}
       <ul id="navbar">
-        <li class="nav_topic">
-          <a href="/Portfolio-REACT/">
+        <li className="nav_topic">
+          <Link to="/Portfolio-REACT/">
             {/* <Link to="/">About Me</Link> */}
-            <button class="nav_button">About Me</button>
-          </a>
+            <button className="nav_button">About Me</button>
+          </Link>
         </li>
-        <li class="nav_topic">
-          <a href="/Portfolio-REACT/ProjectsPage">
+        <li className="nav_topic">
+          <Link to="/ProjectsPage">
             {/* <Link to="/ProjectsPage">Projects</Link> */}
-            <button class="nav_button">Projects</button>
-          </a>
+            <button className="nav_button">Projects</button>
+          </Link>
         </li>
-        <li class="nav_topic">
-          <a href="/Portfolio-REACT/ContactPage">
+        <li className="nav_topic">
+          <Link to="/ContactPage">
             {/* <Link to="/ContactPage">Contact Me</Link> */}
-            <button class="nav_button">Contact Me</button>
-          </a>
+            <button className="nav_button">Contact Me</button>
+          </Link>
         </li>
       </ul>
       {/* <Routes>

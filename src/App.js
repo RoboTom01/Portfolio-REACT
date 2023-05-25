@@ -24,10 +24,10 @@ function App() {
   return (
 
       <main> 
+
+          <Router>
           <Navbar />
           <BackgroundPic />
-          <Router>
-
           {/* <div>
             {component}
           </div> */}
@@ -37,11 +37,11 @@ function App() {
             element={<HomePage />} 
           />
           <Route 
-            path="/Portfolio-REACT/ProjectsPage" 
+            path="/ProjectsPage" 
             element={<ProjectPage />} 
           />
           <Route 
-            path="/Portfolio-REACT/ContactPage" 
+            path="/ContactPage" 
             element={<ContactPage />} 
           />
           </Routes>
