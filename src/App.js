@@ -11,7 +11,6 @@ function App() {
   return (
 
       <main> 
-
           <Router>
           <Navbar />
           <BackgroundPic />

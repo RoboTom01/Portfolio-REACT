@@ -39,10 +39,6 @@ button:hover {
 footer {
   background-color: var(--main-color);
   width: 100%;
-  /* position: fixed;
-  bottom: 0px;
-  /* padding: 50px 0px 50px; */
-  /* min-width: var(--minimum-size); */
 }
 
 form {
@@ -51,7 +47,6 @@ form {
 
 header {
   background-color: var(--main-color);
-  /* min-width: var(--minimum-size); */
   display: flex; 
   justify-content: flex-end;
   height: 75px;
@@ -74,7 +69,6 @@ h1 {
 h2 {
   padding: 20px 0 20px 0;
   margin: 0;
-  /* text-align: right; */
 }
 
 h3 {
@@ -92,10 +86,6 @@ input {
   min-width: 300px;
   margin: 5px 0 5px 0;
 }
-
-/* label {
-  padding-top: 10px;
-} */
 
 p {
   text-align: center;
@@ -132,7 +122,6 @@ ul {
 .column_center {
   flex: 60%;
   padding-left: 20px;
-  /* margin-right: 10px; */
 }
 
 .column_right {
@@ -191,8 +180,6 @@ ul {
 }
 
 .project_small {
-  /* min-width: 257px;
-  max-width: 750px; */
   width: 650px;
   height: 190px;
   border-style:solid;
@@ -228,7 +215,6 @@ ul {
   text-align: center;
   overflow-wrap: break-word;
   font-size: 17px;
-  /* padding-right: 55px; */
 }
 
 #background_field {
@@ -236,12 +222,6 @@ ul {
   background-image: url("https://images.pexels.com/photos/388415/pexels-photo-388415.jpeg?cs=srgb&dl=pexels-jahoo-clouseau-388415.jpg&fm=jpg");
   background-position: 0px -1000px;
 }
-
-/* #div-footer {
-  background-color: var(--main-color);
-  height: fit-content;
-  width: auto;
-} */
 
 #certification {
   padding: 0;
@@ -292,7 +272,6 @@ ul {
   border-style: groove;
   border-color: black;
   position: relative;
-  /* right: 10%; */
   left: 65%;
   bottom: 1060px;    
   background-color: var(--secondary-color);
@@ -310,21 +289,6 @@ ul {
   padding-right: auto;
   justify-content: center;
 }
-
-/* #project_big {
-  border-style: solid;
-  height: 330px;
-  width: auto;
-  min-width: 658px;
-  max-width: 1500px;
-  margin: 15px 50px 15px 0px;
-  background-image: url("https://thumbs.dreamstime.com/b/grand-bazaar-istanbul-turkey-22466729.jpg"); 
-  background-size: cover;
-  background-position: 0px 0px;
-  background-color: transparent;
-  cursor: pointer;
-  position: relative;
-} */
 
 #resume_text {
   font-size: 23px;
