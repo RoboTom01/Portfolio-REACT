@@ -1,10 +1,12 @@
 import React from 'react';
-import { Routes, Route, Link } from "react-router-dom";
+// import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ProjectPage from '../pages/ProjectsPage';
 import HomePage from '../pages/Homepage';
 import ContactPage from '../pages/ContactPage';
 
 function Navbar() {
+  // const path = window.location.pathname
     return (
       <header>
         
