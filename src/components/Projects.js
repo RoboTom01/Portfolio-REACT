@@ -8,7 +8,7 @@ function Projects() {
         <ul id="projects">
           <a href="https://pure-spire-26458.herokuapp.com/">
             <li id="Match" className="project_small">
-                <div className="project_text link">Match Point (WIP)</div>
+                <div className="project_text link">Match Point</div>
             </li>
           </a>
           <a href="https://hogar-bazaar.herokuapp.com/category/7">
