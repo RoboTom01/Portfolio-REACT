@@ -298,9 +298,10 @@ ul {
 /* Background images for small projects */
 
 #Match {
-  background-image: url("https://media.istockphoto.com/id/1022344586/photo/rugby-players-cheering-and-celebrating-win.jpg?s=612x612&w=0&k=20&c=8pvctVwczfspxPUMlA_udbOlDiMwUI2kRwBDgZJ9-Sc=");
+  background-image: url("https://pure-spire-26458.herokuapp.com/static/media/logo.81af5a8ea7a2a4c1b65e.png");
   background-size: cover;
-  background-position: 0px -110px; 
+  background-position: 90px -50px; 
+  background-repeat: no-repeat;
 }
 
 #Hogar {
