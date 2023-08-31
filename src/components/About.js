@@ -1,6 +1,5 @@
 import React from 'react';
 import Footer from './Footer';
-import profilepic from './profilepic.jpg'
 
 function About() {
     return (
@@ -37,7 +36,7 @@ function About() {
             </div>
           </div>
           <Footer />
-          <img id="profile_pic" src={profilepic} alt="image"></img>
+          <img id="profile_pic" src={require("./profilepic.jpg")} alt="image"></img>
         </div>
     );
 }
