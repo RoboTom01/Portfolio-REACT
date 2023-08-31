@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
-import profilepic from './profilepic.jpg';
+import profilepic from '../profilepic.jpg';
 
 function About() {
     return (
