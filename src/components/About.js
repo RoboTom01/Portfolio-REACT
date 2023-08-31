@@ -36,7 +36,7 @@ function About() {
             </div>
           </div>
           <Footer />
-          <img id="profile_pic" src={require("./profilepic.jpg")} alt="image"></img>
+          <img id="profile_pic" src={"./profilepic.jpg"} alt="image"></img>
         </div>
     );
 }
