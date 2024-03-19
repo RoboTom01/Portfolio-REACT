@@ -1,6 +1,7 @@
 # My Portfolio  
   ## Hi! My name is Thomas 
-  This is my portfolio to show off some web development I have learned. This site uses HTML, CSS, JS, and is organized using React.<br /> 
+  This is my portfolio to show off some web development I have learned. This site uses HTML, CSS, JS, and is organized using React.<br />
+  [Live Site](https://robotom01.github.io/Portfolio-REACT/)<br />
   [Demo Video](https://watch.screencastify.com/v/WgG7QoYJdmN7U8ZGArrZ)<br />
   This site presents the user with 3 different pages, all while having a presisting header with a navbar, as well as a footer with links to download my resume or go to external sites.<br />
   The 3 pages are:
