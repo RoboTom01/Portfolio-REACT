@@ -164,6 +164,8 @@ ul {
 .nav_topic {
   display: inline-block;
   text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .project_text {

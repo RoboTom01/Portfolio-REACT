@@ -6,9 +6,9 @@ function Projects() {
     return (
       <div>
         <ul id="projects">
-          <a href="https://pure-spire-26458.herokuapp.com/">
+          <a href="https://github.com/RoboTom01/Business-Portfolio-Sample-Site">
             <li id="Match" className="project_small">
-                <div className="project_text link">Match Point</div>
+                <div className="project_text link">HUGO Portfolios (WIP)</div>
             </li>
           </a>
           <a href="https://hogar-bazaar.herokuapp.com/category/7">
