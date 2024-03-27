@@ -16,7 +16,7 @@ function About() {
               <p>My Certifications:</p>
               <ul id='certification' className='row'>
                 <ul className='list-left'>
-                  <li>Full Stack Web Development (WIP)</li>
+                  <li>Full Stack Web Development</li>
                   <li>Associate's Degree in Accounting</li>
                   <li>Quickbooks Desktop Certified</li>
                   <li>Microsoft Office Specialist Excel 2016</li>
