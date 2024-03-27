@@ -38,6 +38,7 @@ button:hover {
 footer {
     background-color: var(--main-color);
     width: 100%;
+    margin-top: 3%;
     /* position: fixed;
     bottom: 0px;
     /* padding: 50px 0px 50px; */
@@ -233,6 +234,7 @@ ul {
     height: 500px;
     background-image: url("https://images.pexels.com/photos/388415/pexels-photo-388415.jpeg?cs=srgb&dl=pexels-jahoo-clouseau-388415.jpg&fm=jpg");
     background-position: 0px -1000px;
+    margin-bottom: 3%;
 }
 
 /* #div-footer {
