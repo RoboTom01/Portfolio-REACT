@@ -6,7 +6,6 @@ function About() {
     return (
         <div>
           <div id="about_me">
-            <h3></h3>
             <div id="bio">
               <p className="italic">Hi, I'm Thomas.</p>
               <p>•</p>
@@ -33,7 +32,6 @@ function About() {
               <p>•</p>
               <p>My hope is to obtain a solid career in web development, that gives me opportunities to grow and learn as the industry and field does.</p>
               <p>Currently, I am interested in becoming proficent in front-end development with tools such as React.</p>
-              <p>•</p>
             </div>
           </div>
           <Footer />
