@@ -229,7 +229,8 @@ ul {
     text-align: center;
     overflow-wrap: break-word;
     font-size: 17px;
-    /* padding-right: 55px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
  
 #background_field {
