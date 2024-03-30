@@ -210,6 +210,8 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   background-color: var(--secondary-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #bio {
@@ -239,7 +241,7 @@ ul {
 #email-form {
   justify-content: center;
   text-align: center;
-  padding: 15px auto 15px auto;
+  padding: 50px auto 50px auto;
   background-color: var(--secondary-color);
 
 }
@@ -285,8 +287,8 @@ ul {
   flex-wrap: wrap;
   min-width: 300px;
   margin-top: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: auto;
   padding-right: auto;
   justify-content: center;
