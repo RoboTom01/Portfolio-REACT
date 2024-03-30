@@ -290,14 +290,7 @@ ul {
   margin-top: 0;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: auto;
-  padding-right: auto;
   justify-content: center;
-}
-
-#project-page {
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 #resume_text {
