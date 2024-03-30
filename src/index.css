@@ -211,7 +211,7 @@ ul {
   justify-content: center;
   background-color: var(--secondary-color);
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 #bio {
@@ -241,7 +241,8 @@ ul {
 #email-form {
   justify-content: center;
   text-align: center;
-  padding: 50px auto 50px auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: var(--secondary-color);
 
 }
@@ -292,6 +293,11 @@ ul {
   padding-left: auto;
   padding-right: auto;
   justify-content: center;
+}
+
+#project-page {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #resume_text {
